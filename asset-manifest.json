@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4df45129.css",
+    "main.js": "/static/js/main.c64b6dfb.js",
+    "static/media/Triangulum.jpg": "/static/media/Triangulum.11aa25debe74b859e294.jpg",
+    "static/media/Mars.jpg": "/static/media/Mars.c1e2b37e3a7ab07712e3.jpg",
+    "static/media/milky way.jpg": "/static/media/milky way.18160a8165f2fc913c08.jpg",
+    "static/media/space.jpeg": "/static/media/space.2b149c402a20a7613431.jpeg",
+    "static/media/venus.jpg": "/static/media/venus.a47eceaaa575982f5386.jpg",
+    "static/media/galaxy.jpg": "/static/media/galaxy.79f6edfff89151aa824b.jpg",
+    "static/media/Hercules A.jpg": "/static/media/Hercules A.2796bb798630331d3801.jpg",
+    "static/media/Satelties.jpeg": "/static/media/Satelties.42c9444e62e5f931e253.jpeg",
+    "static/media/Sentinel@A.webp": "/static/media/Sentinel@A.e6a306b355acc0555ca2.webp",
+    "static/media/HST.webp": "/static/media/HST.27a324800d5244e8fe02.webp",
+    "static/media/NOAA20.webp": "/static/media/NOAA20.3b4cc2618feebfe7c8b6.webp",
+    "static/media/Intersellars.jpeg": "/static/media/Intersellars.40d48ad2b2ad266a8e66.jpeg",
+    "static/media/ICC 1101.jpg": "/static/media/ICC 1101.94884cc8618ed6f58edb.jpg",
+    "static/media/STARLINK.webp": "/static/media/STARLINK.caa6ca8549630e4acf43.webp",
+    "static/media/SENTINEL2b.webp": "/static/media/SENTINEL2b.0ccb57c6e8793c675869.webp",
+    "static/media/neptunus.jpg": "/static/media/neptunus.6844ca68532d99a65222.jpg",
+    "static/media/ADEOS2.webp": "/static/media/ADEOS2.f6cf0c274a2101507072.webp",
+    "static/media/SpaceStation.webp": "/static/media/SpaceStation.5e84670ac6fa83257543.webp",
+    "static/media/aausat cubesat.webp": "/static/media/aausat cubesat.6893a3c22a7164292c3d.webp",
+    "static/media/WILDBLUE1.webp": "/static/media/WILDBLUE1.84df41dbfd1cbc9da92a.webp",
+    "static/media/uranis.jpeg": "/static/media/uranis.4b59a23281ebb89237e4.jpeg",
+    "static/media/Andromeda.jpg": "/static/media/Andromeda.48a7d471e7410c988c7a.jpg",
+    "static/media/AIST2D.webp": "/static/media/AIST2D.a7551cd4cea7757f160e.webp",
+    "static/media/merkerius.jpg": "/static/media/merkerius.165966757c119a98521f.jpg",
+    "static/media/earth.jpg": "/static/media/earth.489a5fcf9fccc5ff4a58.jpg",
+    "static/media/Satellite.webp": "/static/media/Satellite.15a56e4ab82b9b6a320f.webp",
+    "static/media/AAUSAT4.webp": "/static/media/AAUSAT4.459937309485bbe7934b.webp",
+    "index.html": "/index.html",
+    "main.4df45129.css.map": "/static/css/main.4df45129.css.map",
+    "main.c64b6dfb.js.map": "/static/js/main.c64b6dfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df45129.css",
+    "static/js/main.c64b6dfb.js"
+  ]
+}
