@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Space-web/static/css/main.666c78c1.css",
-    "main.js": "/Space-web/static/js/main.c2629427.js",
+    "main.css": "/Space-web/static/css/main.3d998234.css",
+    "main.js": "/Space-web/static/js/main.46a36121.js",
     "static/media/Triangulum.jpg": "/Space-web/static/media/Triangulum.11aa25debe74b859e294.jpg",
     "static/media/Mars.jpg": "/Space-web/static/media/Mars.c1e2b37e3a7ab07712e3.jpg",
     "static/media/milky way.jpg": "/Space-web/static/media/milky way.18160a8165f2fc913c08.jpg",
@@ -30,11 +30,11 @@
     "static/media/Satellite.webp": "/Space-web/static/media/Satellite.15a56e4ab82b9b6a320f.webp",
     "static/media/AAUSAT4.webp": "/Space-web/static/media/AAUSAT4.459937309485bbe7934b.webp",
     "index.html": "/Space-web/index.html",
-    "main.666c78c1.css.map": "/Space-web/static/css/main.666c78c1.css.map",
-    "main.c2629427.js.map": "/Space-web/static/js/main.c2629427.js.map"
+    "main.3d998234.css.map": "/Space-web/static/css/main.3d998234.css.map",
+    "main.46a36121.js.map": "/Space-web/static/js/main.46a36121.js.map"
   },
   "entrypoints": [
-    "static/css/main.666c78c1.css",
-    "static/js/main.c2629427.js"
+    "static/css/main.3d998234.css",
+    "static/js/main.46a36121.js"
   ]
 }
