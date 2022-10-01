@@ -35,7 +35,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className="relative z-[-1] ">
+			<div className="relative">
 				<img src={Galaxies} alt="" className=" w-full" />
 				<div className=" absolute top-1/2 left-5 medium:top-[40%] ">
 					<h2 className=" text-lg text-white tracking-[.1rem] pb-2">
@@ -53,7 +53,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className="relative z-[-1] ">
+			<div className="relative">
 				<img src={Satelities} alt="" className=" w-full" />
 				<div className=" absolute top-1/2 left-5 medium:top-[40%] ">
 					<h2 className=" text-lg text-white tracking-[.1rem] pb-2">
@@ -71,7 +71,7 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className="relative z-[-1] ">
+			<div className="relative">
 				<img src={Intersellars} alt="" className=" w-full" />
 				<div className=" absolute top-1/2 left-5 medium:top-[40%] ">
 					<h2 className=" text-lg text-white tracking-[.1rem] pb-2">
