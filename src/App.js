@@ -9,7 +9,7 @@ import Gallery from "./Components/Gallery";
 import Forum from './Components/Forum'
 import Copy from "./Image/copyright.png";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom'

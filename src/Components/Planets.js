@@ -1,5 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import '../App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Planets = () => {
   const [Container, setContainer] = useState([]);
@@ -22,6 +24,9 @@ const Planets = () => {
   }
   useEffect(() => {
     fetchMe()
+	AOS.init({
+		duration:"2000"
+	})
   }, []);
     Container.sort((a,b)=>{
       if(a.planetOrder < b.planetOrder) return -1;
@@ -38,8 +43,9 @@ const Planets = () => {
 								src={hi.imgSrc[0].img}
 								alt=""
 								className="w-[30%]"
+								data-aos="flip-left"
 							/>
-							<div className="text-white text-center gap-2 card">
+							<div  data-aos="flip-right" className="text-white text-center gap-2 card">
 								<h3 className="text-center pb-6 uppercase tracking-[.2rem] text-2xl">
 									{hi.name}
 								</h3>

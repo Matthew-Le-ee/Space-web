@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import  Milkyway from '../Image/Galaxies/milky way.jpg'
 import Andromeda from '../Image/Galaxies/Andromeda.jpg'
 import Messier81 from '../Image/Galaxies/Messier 81.jpg'
@@ -6,13 +6,29 @@ import HerculesA from '../Image/Galaxies/Hercules A.jpg'
 import iCC1101 from '../Image/Galaxies/ICC 1101.jpg'
 import Triangulum from '../Image/Galaxies/Triangulum.jpg'
 import '../App.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Galaxies = () => {
+    useEffect(() => {
+		AOS.init({
+			duration: "2000",
+		});
+	}, []);
   return (
 		<div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={Milkyway} alt="" className="w-[20%]" />
-				<div className="text-white text-center pb-6 card">
+				<img
+					src={Milkyway}
+					alt=""
+					className="w-[20%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center pb-6 card"
+					data-aos="fli-right"
+				>
 					<h3 className="text-center py-4 uppercase tracking-[.2rem] text-2xl">
 						Milky way
 					</h3>
@@ -42,8 +58,16 @@ const Galaxies = () => {
 				</div>
 			</div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={Andromeda} alt="" className='w-[30%]'/>
-				<div className="text-white text-center card">
+				<img
+					src={Andromeda}
+					alt=""
+					className="w-[30%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center card"
+					data-aos="flip-right"
+				>
 					<h3 className="text-center py-6 uppercase tracking-[.2rem] text-2xl">
 						Andromeda
 					</h3>
@@ -70,8 +94,16 @@ const Galaxies = () => {
 				</div>
 			</div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={HerculesA} alt="" className="w-[20%]" />
-				<div className="text-white text-center card">
+				<img
+					src={HerculesA}
+					alt=""
+					className="w-[20%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center card"
+					data-aos="flip-right"
+				>
 					<h3 className="text-center py-6 uppercase tracking-[.2rem] text-2xl">
 						Hercules A
 					</h3>
@@ -94,8 +126,16 @@ const Galaxies = () => {
 				</div>
 			</div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={iCC1101} alt="" className="w-[20%]" />
-				<div className="text-white text-center card">
+				<img
+					src={iCC1101}
+					alt=""
+					className="w-[20%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center card"
+					data-aos="flip-right"
+				>
 					<h3 className="text-center py-6 uppercase tracking-[.2rem] text-2xl">
 						IC 1101
 					</h3>
@@ -117,8 +157,16 @@ const Galaxies = () => {
 				</div>
 			</div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={Messier81} alt="" className="w-[30%]" />
-				<div className="text-white text-center  card">
+				<img
+					src={Messier81}
+					alt=""
+					className="w-[30%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center  card"
+					data-aos="flip-right"
+				>
 					<h3 className="text-center py-6 uppercase tracking-[.2rem] text-2xl">
 						Messier 81
 					</h3>
@@ -146,8 +194,16 @@ const Galaxies = () => {
 				</div>
 			</div>
 			<div className="flex items-center medium:flex-col py-6">
-				<img src={Triangulum} alt="" className="w-[20%]" />
-				<div className="text-white text-center card">
+				<img
+					src={Triangulum}
+					alt=""
+					className="w-[20%]"
+					data-aos="flip-left"
+				/>
+				<div
+					className="text-white text-center card"
+					data-aos="flip-right"
+				>
 					<h3 className="text-center py-6 uppercase tracking-[.2rem] text-2xl">
 						Triangulum
 					</h3>

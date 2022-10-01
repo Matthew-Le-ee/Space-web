@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Milkyway from '../Image/Galaxies/milky way.jpg'
 import Andromeda from '../Image/Galaxies/Andromeda.jpg'
 import Messier81 from '../Image/Galaxies/Messier 81.jpg'
@@ -25,19 +25,26 @@ import Saturn from '../Image/Planets/saturn.jpg'
 import Uranus from '../Image/Planets/uranis.jpeg'
 import Venus from '../Image/Planets/venus.jpg'
 import '../Components/Gallery.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Gallery = () => {
+  useEffect(() => {
+		AOS.init({
+			duration: "2000",
+		});
+  }, []);
   return (
 		<>
 			<div className="row">
-				<div className="column">
+				<div className="column" data-aos="flip-left">
 					<img src={Neptunus} alt="" className=" w-full" />
 					<img src={Earth} alt="" className=" w-full" />
 					<img src={Mars} alt="" className=" w-full " />
 					<img src={Merkerius} alt="" className=" w-full" />
 					<img src={Venus} alt="" className=" w-full" />
 				</div>
-				<div className="column">
+				<div className="column" data-aos="flip-left">
 					<img src={Uranus} alt="" className="w-full" />
 					<img src={Milkyway} alt="" className=" w-full" />
 					<img src={Andromeda} alt="" className=" w-full" />
@@ -45,7 +52,7 @@ const Gallery = () => {
 					<img src={HerculesA} alt="" className=" w-full" />
 					<img src={iCC1101} alt="" className=" w-full" />
 				</div>
-				<div className="column">
+				<div className="column" data-aos="flip-left">
 					<img src={Satellite} alt="" className=" w-full" />
 					<img src={StarLink} alt="" className=" w-full" />
 					<img src={SpaceStation} alt="" className=" w-full" />
@@ -54,14 +61,14 @@ const Gallery = () => {
 					<img src={sentinel2a} alt="" className=" w-full" />
 					<img src={HST} alt="" className=" w-full" />
 				</div>
-				<div className="column">
+				<div className="column" data-aos="flip-left">
 					<img src={Triangulum} alt="" className="w-full" />
 					<img src={Aist2d} alt="" className="w-full" />
 					<img src={aausat4} alt="" className="w-full" />
 					<img src={adeos2} alt="" className="w-full" />
 					<img src={aausatcubesat} alt="" className="w-full" />
 					<img src={Noaa20} alt="" className="w-full" />
-					<img src={Saturn} alt="" className='w-full'/>
+					<img src={Saturn} alt="" className="w-full" />
 				</div>
 			</div>
 		</>

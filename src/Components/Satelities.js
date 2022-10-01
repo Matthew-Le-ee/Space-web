@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Satellite from '../Image/Satellite/Satellite.webp'
 import StarLink from '../Image/Satellite/STARLINK.webp'
 import SpaceStation from '../Image/Satellite/SpaceStation.webp'
@@ -11,14 +11,21 @@ import adeos2 from '../Image/Satellite/ADEOS2.webp'
 import aausat4 from '../Image/Satellite/AAUSAT4.webp'
 import aausatcubesat from '../Image/Satellite/aausat cubesat.webp'
 import Noaa20 from '../Image/Satellite/NOAA20.webp'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import '../App.css'
 
 const Satelities = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: "2000",
+		});
+	}, []);
   return (
 		<>
 			<div className="flex justify-between flex-wrap medium:justify-center">
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={Satellite} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -35,7 +42,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={StarLink} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -52,7 +59,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={aausat4} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -69,7 +76,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={adeos2} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -86,7 +93,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={Aist2d} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -103,7 +110,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={HST} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -120,7 +127,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={SpaceStation} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -137,7 +144,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={sentinel2a} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -154,7 +161,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={sentinel2b} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -171,7 +178,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={WILDBLUE} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -188,7 +195,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card mb-4">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={aausatcubesat} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">
@@ -205,7 +212,7 @@ const Satelities = () => {
 						</p>
 					</div>
 				</div>
-				<div className="card">
+				<div className="card mb-4" data-aos="flip-left">
 					<img src={Noaa20} alt="" className="w-full" />
 					<div className="text-white text-center py-4">
 						<h3 className="text-2xl tracking-[.1em] uppercase pb-3">

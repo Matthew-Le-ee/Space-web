@@ -7,7 +7,7 @@ const NavBar = () => {
 	
   return (
 		<>
-			<div className="container flex sticky top-0 items-center justify-between text-white bg-black ">
+			<div className=" z-[1]  container flex sticky top-0 items-center justify-between text-white bg-black ">
 				<div>
 					<h2 className="text-2xl tracking-[.2rem]">Space</h2>
 				</div>
