@@ -44,7 +44,7 @@ const Home = () => {
 					<Link to="/Galaxies">
 						<button
 							data-aos="fade-right"
-							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5 cursor-pointer"
+							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5"
 						>
 							Explore
 							<img src={Arrow} alt="" className="w-7" />
@@ -62,7 +62,7 @@ const Home = () => {
 					<Link to="/Satelities">
 						<button
 							data-aos="fade-right"
-							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5 cursor-pointer"
+							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5 "
 						>
 							Explore
 							<img src={Arrow} alt="" className="w-7" />
@@ -80,7 +80,7 @@ const Home = () => {
 					<Link to="/Gallery">
 						<button
 							data-aos="fade-right"
-							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5 cursor-pointer"
+							className=" bg-black text-white py-[10px] px-[10px] rounded-[10px] flex gap-5"
 						>
 							Explore
 							<img src={Arrow} alt="" className="w-7" />
