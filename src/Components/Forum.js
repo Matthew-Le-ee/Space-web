@@ -24,7 +24,7 @@ const Forum = () => {
   console.log(Data)
   return (
 		<>
-			<h1>Forum Space</h1>
+			<h1 className='text-white text-center text-[2rem] tracking-wider'>Forum Space</h1>
 			<div className="medium:w-3/4 m-auto h-[500px] overflow-auto rounded-xl card text-white text-right p-[30px]">
 				{Data.map((hi) => (
 					<div className="text-[1rem] text-left relative w-fit">
